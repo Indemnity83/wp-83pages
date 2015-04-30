@@ -1,0 +1,38 @@
+{
+    "name": "indemnity83/wp-83pages",
+    "description": "Multiuser WordPress setup for 83pages",
+    "authors": [
+        {
+            "name": "Kyle Klaus",
+            "email": "kklaus@indemnity83.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "johnpbloch/wordpress": "4.*",
+        "wpackagist-plugin/jetpack": "~3",
+        "wpackagist-plugin/wpro": "~1",
+        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
+        "wpackagist-plugin/authy-two-factor-authentication": "~2",
+        "wpackagist-plugin/wordpress-importer": "^0.6"
+    },
+    "extra": {
+      "wordpress-install-dir": "public",
+      "installer-paths": {
+            "public/wp-content/mu-plugins/{$name}/": [ "type:wordpress-muplugin" ],
+            "public/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
+            "public/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp -R bootstrap/* public/"
+        ]
+    }    
+}
