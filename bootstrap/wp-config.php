@@ -14,6 +14,15 @@
  * @package WordPress
  */
 
+// Multisite
+define('WP_ALLOW_MULTISITE', true);
+define('MULTISITE', $_ENV["WP_ENABLE_MULTISITE"]);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', $_ENV["WP_DOMAIN_CURRENT_SITE"]);
+define('PATH_CURRENT_SITE', $_ENV["WP_PATH_CURRENT_SITE"]);
+define('SITE_ID_CURRENT_SITE', $_ENV["WP_SITE_ID_CURRENT_SITE"]);
+define('BLOG_ID_CURRENT_SITE', $_ENV["WP_BLOG_ID_CURRENT_SITE"]);
+
 // Disable filesystem level changes from WP
 define('DISALLOW_FILE_EDIT',true);
 define('DISALLOW_FILE_MODS',true);
