@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e78647ec9bd7fc1c5a227a22a7e79b3f",
+    "hash": "16b2bfb4e864a4081beaf188268bf270",
     "packages": [
         {
             "name": "composer/installers",
@@ -282,6 +282,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpmandrill/"
+        },
+        {
+            "name": "wpackagist-plugin/wpmandrill-multisite",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wpmandrill-multisite/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpmandrill-multisite.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpmandrill-multisite/"
         },
         {
             "name": "wpackagist-plugin/wpro",
