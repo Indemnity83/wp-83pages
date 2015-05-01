@@ -23,6 +23,9 @@ define('PATH_CURRENT_SITE', $_ENV["WP_PATH_CURRENT_SITE"]);
 define('SITE_ID_CURRENT_SITE', $_ENV["WP_SITE_ID_CURRENT_SITE"]);
 define('BLOG_ID_CURRENT_SITE', $_ENV["WP_BLOG_ID_CURRENT_SITE"]);
 
+// Akismet API
+define('WPCOM_API_KEY', $_ENV["AKISMET_API_KEY"]);
+
 // Disable filesystem level changes from WP
 define('DISALLOW_FILE_EDIT',true);
 define('DISALLOW_FILE_MODS',true);
