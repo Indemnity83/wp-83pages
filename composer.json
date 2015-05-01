@@ -18,7 +18,6 @@
         "johnpbloch/wordpress": "4.*",
         "wpackagist-plugin/jetpack": "~3",
         "wpackagist-plugin/wpmandrill": "~1",
-        "wpackagist-plugin/wpmandrill-multisite": "~1",
         "wpackagist-plugin/wpro": "~1",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~2",
