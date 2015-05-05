@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5998512ac53236a35ecacd9587d9655c",
+    "hash": "f4ee9861b3facdddbdf3ce770f1f310e",
     "packages": [
         {
             "name": "composer/installers",
@@ -224,6 +224,46 @@
             "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
         },
         {
+            "name": "wpackagist-plugin/contact-details-by-woothemes",
+            "version": "1.0.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/contact-details-by-woothemes/",
+                "reference": "tags/1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-details-by-woothemes.1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-details-by-woothemes/"
+        },
+        {
+            "name": "wpackagist-plugin/features-by-woothemes",
+            "version": "1.4.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/features-by-woothemes/",
+                "reference": "tags/1.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/features-by-woothemes.1.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/features-by-woothemes/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "3.5",
             "source": {
@@ -244,6 +284,46 @@
             "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
+            "name": "wpackagist-plugin/our-team-by-woothemes",
+            "version": "1.4.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/our-team-by-woothemes/",
+                "reference": "tags/1.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/our-team-by-woothemes.1.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/our-team-by-woothemes/"
+        },
+        {
+            "name": "wpackagist-plugin/projects-by-woothemes",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/projects-by-woothemes/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/projects-by-woothemes.1.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/projects-by-woothemes/"
+        },
+        {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
             "version": "1.5.3",
             "source": {
@@ -262,6 +342,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/testimonials-by-woothemes",
+            "version": "1.5.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/testimonials-by-woothemes/",
+                "reference": "tags/1.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/testimonials-by-woothemes.1.5.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/testimonials-by-woothemes/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
