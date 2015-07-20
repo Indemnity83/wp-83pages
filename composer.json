@@ -23,7 +23,7 @@
         "wpackagist-plugin/jetpack": "~3",
         "wpackagist-plugin/wpmandrill": "~1",
         "wpackagist-plugin/akismet": "~3",
-        "wpackagist-plugin/wpro": "dev-master",
+        "alfreddatakillen/wpro": "dev-master",
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
         "wpackagist-plugin/authy-two-factor-authentication": "~2",
         "wpackagist-plugin/wordpress-importer": "^0.6"

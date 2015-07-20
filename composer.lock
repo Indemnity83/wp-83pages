@@ -4,8 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9827b78ecb0726597ee6da5207d27da1",
+    "hash": "dccf56c1235d0c3cdecc1f2b06ede4de",
     "packages": [
+        {
+            "name": "alfreddatakillen/wpro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alfreddatakillen/wpro",
+                "reference": "1ce135defbbadc0882a057786c420c82cc98472a"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*",
+                "wp-cli/wp-cli": "*",
+                "wpreadme2markdown/wpreadme2markdown": "*"
+            },
+            "type": "wordpress-plugin",
+            "description": "Wordpress Read-Only",
+            "homepage": "http://github.com/alfreddatakillen/wpro",
+            "time": "2015-02-10 07:37:29"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.21",
@@ -305,34 +323,13 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpmandrill/"
-        },
-        {
-            "name": "wpackagist-plugin/wpro",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wpro/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpro.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpro/",
-            "time": "2012-04-02 23:39:23"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/wpro": 20
+        "alfreddatakillen/wpro": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
